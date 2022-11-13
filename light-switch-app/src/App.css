@@ -1,0 +1,60 @@
+.App {
+  background-image: url('./assets/room-background.jpg');
+  background-size: 100%;
+  min-height: 100vh;
+}
+
+.centered-flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.light-container {
+  position: relative;
+}
+
+.light-off-img {
+  max-height: 75vh;
+}
+
+.light-on-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  max-height: 75vh;
+}
+
+.light-on-img.light-on-state {
+  opacity: 1;
+  max-height: 75vh;
+}
+
+.switch-container {
+  position: relative;
+  top: -30vh;
+  right: -21vw;
+}
+
+.switch-off-img {
+  max-height: 7vh;
+}
+
+.switch-on-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  max-height: 7vh;
+}
+
+.switch-on-img.switch-on-state {
+  opacity: 1;
+  max-height: 7vh;
+}
