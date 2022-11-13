@@ -16,8 +16,8 @@ try {
   console.log(`Error reading words_dictionary.json file ${error}`);	
 }
 
-// GET /engish_words/prefix_search/{word}
-app.get('/api/engish_words/prefix_search/:word', (request, response) => {
+// GET /api/english_words/prefix_search/{word}
+app.get('/api/english_words/prefix_search/:word', (request, response) => {
   try {
     const searchWord = request.params.word;
     const matchedWords = [];
