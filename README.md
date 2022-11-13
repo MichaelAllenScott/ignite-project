@@ -19,5 +19,5 @@ Take-home project for Ignite
 2. run `npm install`
 3. Once that is done, run `npm start`
 4. The app should be up and running on `localhost:8080`
-5. The API endpoint looks like `localhost:8080/api/engish_words/prefix_search/{word}`
+5. The API endpoint looks like `localhost:8080/api/english_words/prefix_search/{word}`
 
